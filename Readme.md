@@ -1,4 +1,4 @@
-# Measurement Kit Libs
+# Measurement Kit Prebuilt Libs for Golang
 
 This repository contains pre-compiled static libraries for Measurement Kit. We
 would normally use our [measurement-kit/prebuilt](
