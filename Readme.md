@@ -29,7 +29,7 @@ git commit -am "Update prebuilt Windows packages"
 Calling `./script-build-unix/install` installs the specified binaries into
 the `./MK_DIST` folder. The following commands move the binaries outside
 of `./MK_DIST` into the `./mingw` folder, which we make sure does not contain
-anything to avoid adding to many binaries in there.
+anything to avoid adding too many binaries in there.
 
 When passing packages name to `./script-build-unix/install`, make sure you
 remove the `.tar.gz` extension. Binaries are validated against their SHA256 sum
