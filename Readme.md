@@ -4,7 +4,7 @@ This repository contains pre-compiled static libraries for Measurement
 Kit. We would normally use our [measurement-kit/prebuilt](
 https://github.com/measurement-kit/prebuilt) repository (and
 specifically its
-[releases](https://github.com/measurement-kit/prebuilt/releases)
+[releases](https://github.com/measurement-kit/prebuilt/releases))
 to publish prebuilt binaries, however the Golang build does not
 support invoking any shell script to fetch binaries. Hence, this
 repository that contains the binaries that you would get by calling
