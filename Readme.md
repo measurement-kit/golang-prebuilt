@@ -25,10 +25,19 @@ rm -f *.tar.gz
 git add ./mingw
 ```
 
-Example of running `./script-build-unix/install` valid in the moment in
-which this file is being updated:
+Calling `./script-build-unix/install` installs the specified binaries into
+the `./MK_DIST` folder. The following commands move the binaries outside
+of `./MK_DIST` into the `./mingw` folder, which we make sure does not contain
+anything to avoid adding to many binaries in there.
+
+When passing packages name to `./script-build-unix/install`, make sure you
+remove the `.tar.gz` extension. Binaries are validated against their SHA256 sum
+when downloaded. For additional clarity, here's an example of running
+`./script-build-unix/install` with the most current packages in the moment
+in which this Readme.md file is being updated:
 
 ```
+# NOTE: Just an example, use most current packages please!
 ./script-build-unix/install mingw-geoip-api-c-1.6.12-2 mingw-libressl-2.6.4-3  \
   mingw-libevent-2.1.8-3 mingw-measurement-kit-0.9.0-alpha-3
 ```
