@@ -23,6 +23,7 @@ git rm -rf ./mingw
 mv MK_DIST/mingw ./mingw
 rm -f *.tar.gz
 git add ./mingw
+git commit -am "Update prebuilt Windows packages"
 ```
 
 Calling `./script-build-unix/install` installs the specified binaries into
