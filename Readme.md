@@ -13,6 +13,11 @@ https://github.com/measurement-kit/script-build-unix) repository,
 i.e. the repository that we use to cross compile Measurement Kit
 and its dependencies on Unix and Mingw systems.
 
+This repository is used by [measurement-kit/golang-measurement-kit](
+https://github.com/measurement-kit/golang-measurement-kit) to actually
+build golang binaries for the platforms and architectures for which
+we want to have Measurement Kit Golang binaries.
+
 ## Windows
 
 ```
