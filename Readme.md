@@ -18,6 +18,10 @@ https://github.com/measurement-kit/golang-measurement-kit) to actually
 build golang binaries for the platforms and architectures for which
 we want to have Measurement Kit Golang binaries.
 
+The prebuilt dependencies are published as assets to the releases.
+
+The latest release is currently: 0.9.0-alpha.2-1
+
 ## Windows
 
 ```
