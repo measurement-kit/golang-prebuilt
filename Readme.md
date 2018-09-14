@@ -1,7 +1,5 @@
 # Measurement Kit Prebuilt Libs for Golang
 
-⚠️⚠️⚠️: This repository is current unused and unmaintained!
-
 This repository contains pre-compiled static libraries for Measurement
 Kit. We would normally use our [measurement-kit/prebuilt](
 https://github.com/measurement-kit/prebuilt) repository (and
